@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="storebolt.VeggiesController">
+     <children>
+      <ImageView fitHeight="99.0" fitWidth="242.0" layoutX="334.0" layoutY="14.0" onMousePressed="#homepage" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <image>
+            <Image url="@../images/logoo.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="veggieTable" layoutX="191.0" layoutY="162.0" prefHeight="315.0" prefWidth="530.0" />
+      <ImageView fitHeight="76.0" fitWidth="73.0" layoutX="419.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vegetables.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="612.0" layoutY="510.0" mnemonicParsing="false" onAction="#addToCart" prefHeight="39.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-insets: 0; -fx-background-color: #40434a;" text="Add to Cart" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backButton" layoutX="191.0" layoutY="510.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="39.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-insets: 0; -fx-background-color: #40434a;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="lbl" alignment="CENTER" contentDisplay="CENTER" layoutX="330.0" layoutY="519.0" prefHeight="21.0" prefWidth="250.0" />
+   </children>
+</AnchorPane>
