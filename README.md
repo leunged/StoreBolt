@@ -22,5 +22,5 @@ and then add them to the cart as shown above.
 <img width="690" alt="5" src="https://user-images.githubusercontent.com/46901885/58963869-eee19880-877b-11e9-9dcb-22c54f90fc6d.png">
 
 Once the customer is done adding the needed items to cart, they are brought to the 
-payment page where they can edit their cart and place their order. 
+payment page where they can edit their cart and place their final order. 
 
